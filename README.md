@@ -2,7 +2,7 @@
 A database built on data governance. Leverages zero-knowledge theory to create a single dataset safe for both production and development / pre-production environments.
 
 ## Problem Statement
-Modern RDBMSs ignore the inherent need of all businesses to manage a production and pre-production instance of their data warehouse. Modern data enterprises have enough difficulty achieving data compliance in just their production warehouse alone. 
+Modern RDBMSs ignore the inherent need of all businesses to manage a production and pre-production instance of their data warehouse. Modern data enterprises can often have enough difficulty achieving data compliance in just their production warehouse alone.
 
 It's normal to use test data in place of production data but this introduces a step of creating test data. It also will always fall short of testing on the actual production dataset. The configuration of an environment shouldn't define the ability to access any given dataset.
 
