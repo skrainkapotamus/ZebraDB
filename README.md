@@ -8,3 +8,5 @@ It's normal to use test data in place of production data but this introduces a s
 
 ## Proposal
 Zero-knowledge (ZK) theory is an active area of research because of its potential applicability to solve real-world problems. ZK proofs are generally applied to an entire dataset, but if it were applied at a more granular level such as to every cell of data in a database file, it would allow a user that knows in their mind what data they are querying to interact with that same dataset from SQL in an environment that lacks production-level access privileges while allowing the raw, potentially sensitive underlying data to remain masked.
+
+It would just require a database engine that handles the generation of a ZK proof and the custom pre/post-processing needed to navigate the data in a way that allows different SQL functions to be executed.
