@@ -1,5 +1,5 @@
 # ZebraDB
-A database built on data governance.
+A relational database management system built on data governance.
 
 ## Problem Statement
 Modern RDBMSs ignore the inherent need of all businesses to manage a production and pre-production instance of their data warehouse and its access privileges. Modern data enterprises can often have enough difficulty achieving data compliance in just their production warehouse alone.
